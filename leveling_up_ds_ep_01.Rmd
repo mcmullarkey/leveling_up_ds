@@ -1,0 +1,102 @@
+---
+title: "Leveling Up Your Data Science Game Episode 01"
+author: "Michael Mullarkey"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 5
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+geometry: margin=0.50in
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+require("knitr")
+knitr::opts_chunk$set(echo = TRUE, tidy = TRUE, warning = FALSE, message = FALSE, include = FALSE)
+
+```
+
+## Leveling Up Your Data Science Game
+
+Streaming Mondays 5-6 PM EST @ twitch.tv/mcmullarkey
+
+Walking through data science topics that often aren't taught (even inside academia or at lots of DS jobs)
+
+
+## Who Is This For?
+
+Anyone interested in leveling up their data science game! This includes folks in data science jobs, academics, aspiring data scientists, or anyone interested in data 
+
+The first season will cover basics like how to figure out where your data is coming from, developing an analysis plan, data cleaning, and modeling in broad strokes
+
+Subsequent seasons will dive deeper into each of these tasks and other fun data science stuff
+
+Will primarily happen in R (Though many principles will translate to any coding language)
+
+
+## Why Should I Listen To You?
+
+One way to learn is to teach, and I'm doing my best to teach about problems I've had somewhat recently!
+
+Avoiding The Curse of Knowledge (At least a bit)
+
+You can come have fun, either during the live streams or checking out the edited videos
+
+
+
+
+
+## What Will The First Season Cover Specifically?
+
+Week 1: How to figure out where your data came from
+Week 2: Making an analysis plan/pre-registration
+Week 3: Data cleaning
+Week 4: Running an analysis/modeling
+Week 5: Communicating the findings
+
+
+## "Failure" is Overrated
+
+Mistakes can be great teachers, and...
+
+You don't just have to learn by spectacular failure
+
+Learning some of these lessons early can make your life a lot easier for any given project/your career in general
+
+
+
+
+## Guiding Principles
+
+1. Behaviorally giving a damn about accuracy
+2. Cultivating a workflow that minimizes mistakes
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+
+
+## How Do Those Principles Apply to Figuring Out Where Data Comes From? Part 1 
+
+1. Behaviorally Giving a Damn About Accuracy
+
+- Even bothering to check is a great start!
+- You (and others) might want to build on what you find
+- Be willing to kill projects
+
+## How Do Those Principles Apply to Figuring Out Where Data Comes From? Part 2 
+
+2. Cultivating a workflow that minimizes mistakes
+
+- Make it part of your standard practice to figure out how this data exists
+- You don't have to reinvent the wheel, can calibrate to quality of documentation
+- Be willing to kill projects
+
+## How Do Those Principles Apply to Figuring Out Where Data Comes From? Part 3 
+
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+- Note areas of uncertainty (Potential sensitivity analyses later)
+- Use the buddy system/start your collaboration early
+- Be willing to kill projects
+
