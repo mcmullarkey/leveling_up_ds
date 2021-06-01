@@ -1,0 +1,89 @@
+---
+title: "Leveling Up Your Data Science Game Episode 02"
+author: "Michael Mullarkey"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 5
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+geometry: margin=0.50in
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+require("knitr")
+knitr::opts_chunk$set(echo = TRUE, tidy = TRUE, warning = FALSE, message = FALSE, include = FALSE)
+
+```
+
+## Leveling Up Your Data Science Game
+
+Streaming ??? @ twitch.tv/mcmullarkey
+
+Walking through data science topics that often aren't taught 
+(Even inside academia or at lots of DS jobs)
+
+## Who Is This For?
+
+Anyone interested in leveling up their data science game! This includes folks in data science jobs, academics, aspiring data scientists, or anyone interested in data 
+
+The first season will cover basics like how to figure out where your data is coming from, developing an analysis plan, data cleaning, and modeling in broad strokes
+
+Subsequent seasons will dive deeper into each of these tasks and other fun data science stuff
+
+Will primarily happen in R (Though many principles will translate to any coding language)
+
+
+## Why Should I Listen To You?
+
+One way to learn is to teach, and I'm doing my best to teach about problems I've had somewhat recently!
+
+Avoiding The Curse of Knowledge (At least a bit)
+
+You can come have fun, either during the live streams or checking out the edited videos
+
+
+
+## What Will The First Season Cover Specifically?
+
+Week 1: How to figure out where your data came from (Done!)
+Week 2: Making an analysis plan/pre-registration (Today!)
+Week 3: Data cleaning
+Week 4: Running an analysis/modeling
+Week 5: Communicating the findings
+
+
+## Guiding Principles
+
+1. Behaviorally giving a damn about accuracy
+2. Cultivating a workflow that minimizes mistakes
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+
+
+## How Do Those Principles Apply to Analysis Plan/Pre-Registration? Part 1 
+
+1. Behaviorally Giving a Damn About Accuracy
+
+- Pre-registration/analysis plans can keep us from fooling ourselves
+- Pre-registration/analysis plans can keep an organization from fooling itself (sometimes) 
+- Pre-registration/analysis plans can help clarify which metrics actually matter
+
+## How Do Those Principles Apply to Analysis Plan/Pre-Registration? Part 2 
+
+2. Cultivating a workflow that minimizes mistakes
+
+- Pre-registration is for planning
+- Learning about the quirks of the data before they haunt you
+- Increases the likelihood of everyone being on the same page
+
+## How Do Those Principles Apply to Analysis Plan/Pre-Registration? Part 3 
+
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+- You won't 100% follow your plan, and that's ok
+- Number sections of your pre-reg/analysis plan so it's easier for you/stakeholders to follow
+- If possible, take a subset of your data (5%) and see if some basic code actually runs
+
