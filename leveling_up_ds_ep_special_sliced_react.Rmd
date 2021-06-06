@@ -1,0 +1,80 @@
+---
+title: "Leveling Up Your Data Science Game Episode 02"
+author: "Michael Mullarkey"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 5
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+geometry: margin=0.50in
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+require("knitr")
+knitr::opts_chunk$set(echo = TRUE, tidy = TRUE, warning = FALSE, message = FALSE, include = FALSE)
+
+```
+
+## Leveling Up Your Data Science Game
+
+Streaming ??? @ twitch.tv/mcmullarkey
+
+Walking through data science topics that often aren't taught 
+(Even inside academia or at lots of DS jobs)
+
+## Who Is This For?
+
+Anyone interested in leveling up their data science game! This includes folks in data science jobs, academics, aspiring data scientists, or anyone interested in data 
+
+The first season will cover basics like how to figure out where your data is coming from, developing an analysis plan, data cleaning, and modeling in broad strokes
+
+Subsequent seasons will dive deeper into each of these tasks and other fun data science stuff
+
+Will primarily happen in R (Though many principles will translate to any coding language)
+
+
+## What Will The First Season Cover Specifically?
+
+Week 1: How to figure out where your data came from (Done!)
+Week 2: Making an analysis plan/pre-registration (Done!)
+Week 2a (lol): BONUS Lessons from the SLICED Data Science Competition on 6/1/21 
+Week 3: Data cleaning
+Week 4: Running an analysis/modeling
+Week 5: Communicating the findings
+
+
+## Guiding Principles
+
+1. Behaviorally giving a damn about accuracy
+2. Cultivating a workflow that minimizes mistakes
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+NOTE: This is in general, not how to win/even do well on #SLICED
+
+## How Do Those Principles Apply to SLICED? Part 1 
+
+1. Behaviorally Giving a Damn About Accuracy
+
+- Integrate the metric you're optimizing for directly into your workflow (And know how ruthlessly to optimize for it)
+- Look for impossible values efficiently
+- Having your own holdout set can save you a lot of grief
+
+## How Do Those Principles Apply to SLICED? Part 2 
+
+2. Cultivating a workflow that minimizes mistakes
+
+- Start as simple as possible
+- You don't need to "go in order"
+- Have a checklist of things to look for that are low effort with potentially high payoff
+
+## How Do Those Principles Apply to SLICED? Part 3 
+
+3. Make it easy to correct the (inevitable!) mistakes that still happen
+
+- Chunk liberally and often
+- Lay out a plan ahead of time, even if you end up deviating from it
+- Do what works for you! (Cliche but true)
+
